@@ -20,6 +20,8 @@ Secure data management
 Custom app creation
 Automation tools
 Easy integration with other systems
+
+
 2. Explain
 App
 An App in Salesforce is a collection of tools, tabs, and features designed for a specific business purpose.
