@@ -1,174 +1,112 @@
-Day 2 – Platform Basics
-1. What is Salesforce Platform?
+# Day 2 – Platform Basics
 
-Salesforce Platform is a cloud-based platform that helps businesses build and manage applications without needing complex hardware or software installation.
+## 1. What is Salesforce Platform?
 
-It provides tools for:
+Salesforce Platform is a cloud-based platform that helps businesses create and manage applications online. It provides tools for customer relationship management (CRM), automation, data management, and app development.
 
-Customer relationship management (CRM)
-Application development
-Automation
-Data storage
-Reporting and analytics
+Features:
+- Cloud-based access
+- Secure data storage
+- Application development
+- Automation tools
+- Reports and dashboards
 
-Salesforce Platform allows users to create custom applications using both configuration and coding methods.
+---
 
-Features of Salesforce Platform:
+# 2. Explain
 
-Cloud-based access
-Secure data management
-Custom app creation
-Automation tools
-Easy integration with other systems
+## App
 
+An App in Salesforce is a collection of tabs, objects, and tools created for a specific business purpose.
 
-2. Explain
-App
-An App in Salesforce is a collection of tools, tabs, and features designed for a specific business purpose.
-Example:
+Examples:
+- Sales App
+- Service App
+- Hospital Management App
 
+Apps help users access related features in one place.
 
-Sales App
+---
 
+## Object
 
-Service App
+An Object in Salesforce is used to store information, similar to a table in a database.
 
-
-Hospital Management App
-
-
-Apps help users access related functionalities in one place.
-
-Object
-An Object in Salesforce is used to store data, similar to a table in a database.
 Objects contain:
-
-
-Fields
-
-
-Records
-
+- Fields
+- Records
 
 Types of Objects:
+1. Standard Objects
+   - Account
+   - Contact
+   - Lead
 
-
-Standard Objects
-
-
-Account
-
-
-Contact
-
-
-Lead
-
-
-
-
-Custom Objects
-
-
-Student
-
-
-Employee
-
-
-Library Book
-
-
-
+2. Custom Objects
+   - Student
+   - Employee
+   - Library Book
 
 Example:
-A Student Object may contain:
+A Student Object stores:
+- Name
+- Roll Number
+- Course
+- Email
 
+---
 
-Name
+## Tab
 
+A Tab in Salesforce is used to open and access objects, records, reports, or dashboards.
 
-Roll Number
-
-
-Course
-
-
-Email
-
-
-
-Tab
-A Tab in Salesforce is used to access objects, records, dashboards, or applications.
-Tabs help users easily navigate through Salesforce.
 Examples:
+- Accounts Tab
+- Contacts Tab
+- Reports Tab
 
+Tabs help users navigate easily inside Salesforce.
 
-Accounts Tab
+---
 
+# 3. Difference Between Configuration and Coding
 
-Contacts Tab
+| Configuration | Coding |
+|---|---|
+| Uses click-based tools | Uses programming languages |
+| No coding knowledge required | Requires coding skills |
+| Faster and easier | More flexible and customizable |
+| Used for simple automation | Used for advanced logic |
+| Example: Flow Builder | Example: Apex |
 
+---
 
-Reports Tab
+# 4. System Design (App + Objects + User Interaction)
 
+## Hospital Management System
 
-
-3. Difference Between Configuration and Coding
-ConfigurationCodingUses click-based toolsUses programming languagesEasy to implementRequires coding knowledgeNo programming requiredProgramming skills requiredFaster developmentMore flexible customizationExamples: Flows, Validation RulesExamples: Apex, Visualforce, LWC
-
-4. System Design (App + Objects + User Interaction)
-Hospital Management System
-App Name
+### App Name
 Hospital Management App
-Objects
 
+### Objects
+1. Patient
+2. Doctor
+3. Appointment
+4. Billing
 
-Patient
+### User Interaction
+- Receptionist enters patient details
+- Doctor checks patient records
+- Patients book appointments
+- Billing staff manages payments
 
+### Benefits
+- Reduces paperwork
+- Saves time
+- Maintains records securely
+- Improves hospital management
 
-Doctor
-
-
-Appointment
-
-
-Billing
-
-
-User Interaction
-
-
-Receptionist adds patient details
-
-
-Doctor views patient records
-
-
-Patients book appointments
-
-
-Billing staff manages payments
-
-
-Benefits
-
-
-Reduces paperwork
-
-
-Saves time
-
-
-Improves patient management
-
-
-Maintains records securely
-
-
-
-
-
+---
 
 
 
