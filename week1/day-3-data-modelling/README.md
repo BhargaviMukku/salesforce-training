@@ -1,6 +1,6 @@
 Salesforce Training – Day 3 Assignment
 1. Difference Between App, Object, Record, and Field
-   | Term       | Meaning                                                                       | Example                   |
+| Term       | Meaning                                                                       | Example                   |
 | ---------- | ----------------------------------------------------------------------------- | ------------------------- |
 | **App**    | A collection of related tabs, objects, and tools used for a specific purpose. | College Management App    |
 | **Object** | A database table that stores related information.                             | Student Object            |
